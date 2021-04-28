@@ -1,0 +1,281 @@
+body{
+    height:1250px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+}
+.heading{
+    background: gray;
+    height: 280px;
+    margin-top: 50px;
+    margin-right:50px ;
+    margin-left: 50px;
+}
+i{
+    border-radius: 50%;
+   padding: 1px;
+    border: 5px dotted rgb(255, 208, 0);
+}
+.vl {
+    border-left: 2px solid black;
+    height: 800px;
+    position: absolute;
+    left:50%;
+    top:50px;
+    
+  }
+  
+.sub{
+   background: gainsboro; 
+   position:absolute;
+   top:250px;
+   height:40px;
+   width: 92.5%;
+   
+}
+.brian{
+    position:absolute;
+    top:20px;
+}
+
+.rounded{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+    border-radius: 50%;
+   
+    border: 5px dotted rgb(255, 208, 0);
+    
+ 
+}
+.pad{
+    padding-top: 30px;
+}
+
+h1{
+    text-align: center;
+    background: rgb(255, 208, 0);
+    transform: translate(-50%, -50%);
+    left:50%;
+    right: 50%;
+    width:40%;
+    height: 70px;
+    padding-top: 10px;
+    position: absolute;
+    font-size: 50px;
+    top: -30%
+    
+}
+.bor{
+    border-radius: 10%;
+}
+
+.add{
+    padding-top: 5px;
+    text-align: center;
+}
+hr{
+    
+    margin-right:50px ;
+    margin-left: 50px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tech{
+    position: absolute;
+    top:220px;
+    left:350px;
+}
+
+.sect4{
+    
+    position: relative;
+    text-align: center;
+    
+}
+.sect5{
+    width:1400px;
+}
+.sc1{
+    position: absolute;
+    left:160px;
+    top:20px;
+    font-size: 30px;
+}
+.hand{
+    position: absolute;
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    top:100px;
+    left:500px;
+    cursor:pointer;
+}
+
+.sctn1{
+    position: absolute;
+    left:160px;
+    top:70px;
+    text-align: left;
+    font-size: 15px;
+    width:30%;
+}
+
+.sc2{
+    position: absolute;
+    left:160px;
+    top:170px;
+    font-size: 30px;
+}
+.data{
+    position: absolute;
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    top:250px;
+    left:500px;
+    cursor:pointer;
+}
+
+.sctn2{
+    position: absolute;
+    left:160px;
+    top:260px;
+    
+    text-align: left;
+    font-size: 15px;
+}
+.slider{
+   position :absolute;
+   left:230px;
+   width:200px;
+   background-color:goldenrod;
+    
+}
+input[type="range"] {
+    -webkit-appearance: none;
+   }
+   
+   input[type="range"]:focus {
+    outline: none;
+   }
+
+   input[type="range"]::-webkit-slider-runnable-track {
+    background: rgb(255, 208, 0);
+    height: 5px;
+   }
+   
+   input[type="range"]::-moz-range-track {
+    background: rgb(255, 208, 0);
+    height: 5px;
+   }
+   input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    background: white;
+    margin-top: -5px;
+    border-radius: 50%;
+    border: 1px solid grey;
+   }
+   
+   input[type="range"]::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    background: pink;
+    margin-top: -5px;
+    border-radius: 50%;
+   }
+.sc3{
+    position: absolute;
+    left:160px;
+    top:550px;
+    font-size: 30px;
+}
+.digital{
+    position: absolute;
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    top:400px;
+    left:500px;
+    cursor:pointer;
+}
+
+.sctn3{
+    position: absolute;
+    left:160px;
+    top:600px;
+    
+    text-align: left;
+    font-size: 15px;
+}
+.list{
+    position: absolute;
+    width:28%;
+    left:200px;
+    top:650px;
+    text-align: left;
+}
+.list1{
+    position: absolute;
+    width:30%;
+    right:100px;
+    top:130px;
+    line-height: 1.6;
+    text-align: left;
+}
+.list2{
+    position: absolute;
+    width:30%;
+    right:100px;
+    top:410px;
+    line-height: 1.6;
+    text-align: left;
+}
+.sc4{
+    position: absolute;
+    right:300px;
+    top:20px;
+    font-size: 30px;
+}
+
+.sctn4{
+    position: absolute;
+    left:810px;
+    top:70px;
+    
+    text-align: left;
+    font-size: 15px;
+}
+
+.sc5{
+    position: absolute;
+    right:380px;
+    font-size: 30px;
+    top:300px;
+}
+
+
+.sctn5{
+    position: absolute;
+    left:810px;
+    top:350px;
+    
+    text-align: left;
+    font-size: 15px;
+   
+}
+.last{
+    position: absolute;
+    left:810px;
+    top:810px;
+    
+    text-align: left;
+    font-size: 15px;
+}
+
+
